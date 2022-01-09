@@ -59,6 +59,51 @@ const clips = [
     'audiofile': 'choreographed.mp3',
     'image': 'logankiller.png',
   },
+  {
+    'title': 'Coward',
+    'audiofile': 'coward.mp3',
+    'image': 'loganuhhuh.png',
+  },
+  {
+    'title': 'Fellatio',
+    'audiofile': 'fellatio.mp3',
+    'image': 'logan.jpeg',
+  },
+  {
+    'title': 'Fuck Off',
+    'audiofile': 'fologan.mp3',
+    'image': 'logankiller.png',
+  },
+  {
+    'title': 'Ichabod',
+    'audiofile': 'ichabod.mp3',
+    'image': 'loganuhhuh.png',
+  },
+  {
+    'title': 'Laugh',
+    'audiofile': 'laugh.mp3',
+    'image': 'logan.jpeg',
+  },
+  {
+    'title': 'Sue Me',
+    'audiofile': 'sueme.mp3',
+    'image': 'logankiller.png',
+  },
+  {
+    'title': 'Snakes and Morons',
+    'audiofile': 'snakesmorons.mp3',
+    'image': 'loganuhhuh.png',
+  },
+  {
+    'title': 'Text on phone',
+    'audiofile': 'textonphone.mp3',
+    'image': 'logan.jpeg',
+  },
+  {
+    'title': 'You\'re Dead',
+    'audiofile': 'youredead.mp3',
+    'image': 'logankiller.png',
+  },
 ];
 
 const ClipCard = ({
