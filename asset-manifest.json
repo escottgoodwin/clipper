@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/clipper/static/css/main.9309a2d7.css",
+    "main.js": "/clipper/static/js/main.c28b0c8d.js",
+    "static/js/787.4439ecb5.chunk.js": "/clipper/static/js/787.4439ecb5.chunk.js",
+    "index.html": "/clipper/index.html",
+    "main.9309a2d7.css.map": "/clipper/static/css/main.9309a2d7.css.map",
+    "main.c28b0c8d.js.map": "/clipper/static/js/main.c28b0c8d.js.map",
+    "787.4439ecb5.chunk.js.map": "/clipper/static/js/787.4439ecb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9309a2d7.css",
+    "static/js/main.c28b0c8d.js"
+  ]
+}
