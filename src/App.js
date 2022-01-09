@@ -8,18 +8,23 @@ import { Typography } from '@mui/material';
 const styles = {
   media: {
      height: 0,
-     paddingTop: '56.25%' // 16:9
+     paddingTop: '56.25%' 
   },
   card: {
      position: 'relative',
   },
   overlay: {
-     display: 'flex', // make us of Flexbox
-     alignItems: 'center',// does vertically center the desired content
-     justifyContent: 'center', // horizontally centers single line items
+     display: 'flex', 
+     alignItems: 'center',
+     justifyContent: 'center', 
      textAlign: 'center',
      fontSize: '3vw',
-     backgroundColor: 'lightgrey',
+     backgroundColor: '#D5F5E3',
+  },
+  headTitle: {
+    padding: 20, 
+    color: '#D5F5E3', 
+    fontSize: '5vw',
   }
 }
 
@@ -59,20 +64,20 @@ const clips = [
 const ClipCard = ({title, image, audiofile}) => {
   const audio = new Audio(audiofile)
   const playClip = () => audio.play()
-  return (<Grid item xs={6} >
+  return <Grid item xs={6} >
             <Card style={styles.card} onClick={playClip}>
               <CardMedia image={image} style={styles.media}/>
                 <Typography style={styles.overlay}>
                   {title}
                 </Typography>
             </Card>
-          </Grid>)
+          </Grid>
 }
 
 function App() {
   return (
     <div className='App-main'>
-      <Typography variant='h3' style={{padding: 20}}>
+      <Typography style={styles.headTitle}>
         Succession Clips
       </Typography>
       <Grid container spacing={2} >
